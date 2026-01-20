@@ -28,8 +28,8 @@ def requisicao_store(token):
 
     dados = response.json()
 
-    with open('request_response.json','w',encoding='utf-8') as f:
-        json.dump(dados,f,indent=4, ensure_ascii=False)
+    # with open('request_response.json','w',encoding='utf-8') as f:
+    #     json.dump(dados,f,indent=4, ensure_ascii=False)
 
     #Trabalha dado para ser enviado ao n8n
     listResult = []
