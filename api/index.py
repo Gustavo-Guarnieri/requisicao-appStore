@@ -26,5 +26,4 @@ def bearer_auth(
 
 @app.get("/requisicao")
 async def pipeline(auth=Depends(bearer_auth)):
-    resultado = executa_pipeline()
-    return resultado
+    return executa_pipeline()
