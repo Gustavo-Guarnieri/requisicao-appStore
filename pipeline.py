@@ -1,4 +1,4 @@
-from cria_jtw import cria_token;
+from cria_jwt import cria_token;
 from requisicao_app_store import requisicao_store;
 from envia_dados_n8n import envia_dados_n8n;
 
