@@ -42,7 +42,7 @@ def requisicao_store(token):
         elif nota == 3:
             tipo_nota = 'neutro 😐'
         else:
-            tipo_nota = 'positivo ✅'
+            tipo_nota = 'positivo ✅ '
         
         listResult.append({
             'id' : item['id'],
